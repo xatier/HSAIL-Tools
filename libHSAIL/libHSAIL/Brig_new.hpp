@@ -1,36 +1,36 @@
 // University of Illinois/NCSA
 // Open Source License
-// 
+//
 // Copyright (c) 2013, Advanced Micro Devices, Inc.
 // All rights reserved.
-// 
+//
 // Developed by:
-// 
+//
 //     HSA Team
-// 
+//
 //     Advanced Micro Devices, Inc
-// 
+//
 //     www.amd.com
-// 
+//
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal with
 // the Software without restriction, including without limitation the rights to
 // use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
 // of the Software, and to permit persons to whom the Software is furnished to do
 // so, subject to the following conditions:
-// 
+//
 //     * Redistributions of source code must retain the above copyright notice,
 //       this list of conditions and the following disclaimers.
-// 
+//
 //     * Redistributions in binary form must reproduce the above copyright notice,
 //       this list of conditions and the following disclaimers in the
 //       documentation and/or other materials provided with the distribution.
-// 
+//
 //     * Neither the names of the LLVM Team, University of Illinois at
 //       Urbana-Champaign, nor the names of its contributors may be used to
 //       endorse or promote products derived from this Software without specific
 //       prior written permission.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
 // FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
@@ -173,7 +173,7 @@ enum BrigPackedTypeBits {
     BRIG_TYPE_PACK_NONE = 0 << BRIG_TYPE_PACK_SHIFT,
     BRIG_TYPE_PACK_32   = 1 << BRIG_TYPE_PACK_SHIFT,
     BRIG_TYPE_PACK_64   = 2 << BRIG_TYPE_PACK_SHIFT,
-    BRIG_TYPE_PACK_128  = 3 << BRIG_TYPE_PACK_SHIFT,
+    BRIG_TYPE_PACK_128  = 3 << BRIG_TYPE_PACK_SHIFT
 };
 
 //BrigType was BrigDataType
@@ -352,7 +352,7 @@ enum BrigInstKinds {
     BRIG_INST_ADDR         = 11,
     BRIG_INST_MOD          = 12,
     BRIG_INST_SEG          = 13,
-    BRIG_INST_SOURCE_TYPE  = 14,
+    BRIG_INST_SOURCE_TYPE  = 14
 
     // TBD Remove
     /*BRIG_INST_BASE,
@@ -545,7 +545,7 @@ enum BrigOpcode { //.tdcaption="Instruction Opcodes"
 	BRIG_OPCODE_WORKITEMABSID          = 130,
 	BRIG_OPCODE_WORKITEMFLATABSID      = 131,
 	BRIG_OPCODE_WORKITEMFLATID         = 132,
-	BRIG_OPCODE_WORKITEMID             = 133,
+	BRIG_OPCODE_WORKITEMID             = 133
 };
 
 enum OldGcnOpcodes {
@@ -595,7 +595,7 @@ enum BrigOperandKinds {
     BRIG_OPERAND_FUNCTION_REF  = 8,
     BRIG_OPERAND_FUNCTION_LIST = 9,
     BRIG_OPERAND_SIGNATURE_REF = 10,
-    BRIG_OPERAND_FBARRIER_REF  = 11,
+    BRIG_OPERAND_FBARRIER_REF  = 11
 
     // TBD remove
     //BRIG_OPERAND_REG_V2,   //.skip
@@ -737,7 +737,7 @@ enum BrigSymbolModifierMask {
     BRIG_SYMBOL_DECLARATION = 4,
     BRIG_SYMBOL_CONST       = 8,
     BRIG_SYMBOL_ARRAY       = 16,
-    BRIG_SYMBOL_FLEX_ARRAY  = 32,
+    BRIG_SYMBOL_FLEX_ARRAY  = 32
 };
 
 //BrigLinkage was BrigAttribute
