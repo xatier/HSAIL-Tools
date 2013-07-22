@@ -508,4 +508,3 @@ typename DstBrigType::CType Scanner::readValue() {
 } // end namespace
 
 #endif // INCLUDED_HSAIL_SCANNER_H
-
